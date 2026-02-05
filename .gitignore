@@ -212,7 +212,10 @@ node_modules/
 dist/
 
 # Data / artifacts
-data/
+# Ignore data files, but allow DVC metadata
+data/**
+!data/**/*.dvc
+!data/**/.gitkeep
 mlruns/
 *.pkl
 
