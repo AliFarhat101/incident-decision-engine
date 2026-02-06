@@ -9,6 +9,7 @@ export default function App() {
   const [error, setError] = useState("");
 
   const apiBase = import.meta.env.VITE_API_BASE || "http://localhost:8000";
+
   const canAnalyze = useMemo(() => log.trim().length >= 5 && !loading, [log, loading]);
 
   async function onAnalyze() {
@@ -132,3 +133,4 @@ function Badge({ label }) {
     </span>
   );
 }
+
