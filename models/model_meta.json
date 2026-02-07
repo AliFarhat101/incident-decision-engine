@@ -1,10 +1,10 @@
 {
   "model_type": "tfidf_logreg",
-  "created_at": "2026-02-06T18:08:08.840015Z",
+  "created_at": "2026-02-07T09:51:31.691968Z",
   "data_version": "incidents_v1.csv (from HDFS_2k structured)",
   "metrics": {
-    "accuracy": 0.9272349272349273,
-    "macro_f1": 0.7066666666666667
+    "accuracy": 0.8937329700272479,
+    "macro_f1": 0.8559453533479507
   },
   "classes": [
     "auth",

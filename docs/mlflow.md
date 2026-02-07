@@ -3,7 +3,12 @@
 We track experiments in DagsHub MLflow.
 
 - Experiment: `LIDE-tfidf-logreg`
+
 - Run: `v1_group_split`
+- Metrics: accuracy, macro_f1
+- Artifacts: incident_clf.joblib, model_meta.json
+
+- Run: `v2_group_split`
 - Metrics: accuracy, macro_f1
 - Artifacts: incident_clf.joblib, model_meta.json
 
